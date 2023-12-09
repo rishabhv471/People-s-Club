@@ -1,0 +1,22 @@
+<div [@fadeInOut]="logedin() ? 'visible' : 'hidden'" class="admin-panel">
+    <div class="center-content">
+        <p>Welcome to admin panel</p>
+    </div>
+</div>
+
+<mat-card (click)="showModifyMember()">
+    <h4>Modify Existing Member</h4>
+    
+
+   
+</mat-card>
+
+<mat-card (click)="showNewMembership()">
+    <h4>Introduce New Membership Type</h4>
+    <li *ngFor="let membershipType of MemmberShipType">{{ membershipType }}</li>
+</mat-card>
+
+<mat-card (click)="showRemoveMembership()">
+    <h4>Remove Existing Membership Type</h4>
+</mat-card>
+

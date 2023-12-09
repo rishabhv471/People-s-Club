@@ -1,0 +1,29 @@
+
+<mat-toolbar color="primary">
+    <!-- <span class="club-title" routerLink="/admin">People's Club</span> -->
+    <img alt="People Club" routerLink="/" src="https://peopleclub.co.uk/static/media/logo.fa144d47.svg" height="32" 
+    style="float: left; margin-top: 10px; z-index: 101;">
+    <div class="spacer"></div>
+    <div class="button-row">
+      <button mat-raised-button color="accent" routerLink="/register">Register</button>
+      <button mat-raised-button color="accent" (click)="loaduser1()" routerLink="/membership">Membership Status</button>
+      <button mat-raised-button color="accent" routerLink="/admin">Admin Dashboard</button>
+      <!-- nav-bar.component.html -->
+      <button mat-raised-button color="accent" *ngIf="isLoggedIn" routerLink="#">Modify MemberShip</button>
+
+      <button mat-raised-button color="accent" *ngIf="isLoggedIn" routerLink="#">Modify Club Members</button>
+      <button mat-raised-button color="accent" *ngIf="isLoggedIn" routerLink="#">Modify MemberShip Type</button>
+    </div>
+   
+    <!-- <mat-menu #adminMenu="matMenu" yPosition="below"> -->
+    
+      <!-- <button mat-raised-button routerLink="/admin">Admin Dashboard</button> -->
+
+      <!-- <button mat-menu-item routerLink="/admin/add">Add Membership Scheme</button>
+      <button mat-menu-item routerLink="/admin/modify">Modify Membership Scheme</button>
+      <button mat-menu-item routerLink="/admin/remove">Remove Membership Scheme</button> -->
+    <!-- </mat-menu> -->
+  </mat-toolbar>
+  
+  <router-outlet></router-outlet>
+  

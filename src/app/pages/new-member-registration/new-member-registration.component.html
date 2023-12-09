@@ -1,0 +1,49 @@
+<div class = rishabh>
+<span  class="xyzq"><h1 >  Register with us!</h1></span> 
+</div>
+
+<form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+    <form [formGroup]="registrationForm" >
+    <mat-form-field appearance="fill">
+      <mat-label>First Name</mat-label>
+      <input matInput  [(ngModel)]="JobSeekerObj.FullName" formControlName="FullName" required>
+      <mat-error *ngIf="registrationForm?.get('FullName')?.hasError('required')">First Name is required</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+        <mat-label>Date of Birth</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="dob">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        <mat-error *ngIf="registrationForm.get('dob')?.hasError('required')">Date of Birth is required</mat-error>
+        <mat-error *ngIf="registrationForm.get('dob')?.hasError('ageRangeValidator')">Age must be greater than 18</mat-error>
+      </mat-form-field>
+  
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Contact Number</mat-label>
+      <input matInput [(ngModel)]="JobSeekerObj.MobileNo" formControlName="MobileNo" required>
+      <mat-error *ngIf="registrationForm.get('MobileNo')?.hasError('required')">Contact Number is required</mat-error>
+      <mat-error *ngIf="registrationForm.get('MobileNo')?.hasError('minlength')">Contact Number must be at least 10 digits</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput [(ngModel)]="JobSeekerObj.EmailId" formControlName="EmailId" required>
+      <mat-error *ngIf="registrationForm.get('EmailId')?.hasError('required')">Email is required</mat-error>
+      <mat-error *ngIf="registrationForm.get('EmailId')?.hasError('EmailId')">Enter a valid email address</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Membership Type</mat-label>
+      <mat-select formControlName="ExperienceStatus" [(ngModel)]="JobSeekerObj.ExperienceStatus" required>
+        <mat-option value="regular">Regular</mat-option>
+        <mat-option value="gold">Gold</mat-option>
+        <mat-option value="platinum">Platinum</mat-option>
+      </mat-select>
+      <mat-error *ngIf="registrationForm.get('ExperienceStatus')?.hasError('required')">Membership Type is required</mat-error>
+    </mat-form-field>
+  
+    <button mat-raised-button color="primary" (click)="registerASJobSeeker()" type="submit" [disabled]="!registrationForm.valid">Submit</button> 
+  </form>
+  

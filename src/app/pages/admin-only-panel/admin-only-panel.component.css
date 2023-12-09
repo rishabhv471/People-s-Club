@@ -1,0 +1,26 @@
+.admin-panel {
+    padding: 40px;
+    background-color: #ffffff; /* Adjust background color as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+  }
+ 
+/* modify-member.component.css */
+mat-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .center-content {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+  /* new-membership.component.css and remove-membership.component.css can have similar styling */
+    

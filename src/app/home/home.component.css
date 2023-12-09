@@ -1,0 +1,193 @@
+/* .knnrxv {
+    width: 100%;
+    height: 680px;
+    background-color: rgb(249, 224, 172);
+    position: relative;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.dryRrI {
+    font-size: 40px;
+    line-height: 56px;
+}
+.dAHnJY > div {
+    max-width: 500px;
+    padding-right: 100px;
+}
+body {
+    margin: 0;
+    
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #141531;
+} */
+
+
+/* Your existing CSS */
+
+.knnrxv {
+    width: 100%;
+    background-color: rgb(249, 224, 172);
+    position: relative;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.dryRrI {
+    font-size: 10px;
+    line-height: 56px;
+}
+
+.dAHnJY > div {
+    max-width: 100%; /* Adjusted for better responsiveness */
+    padding-right: 20px; /* Adjusted for better responsiveness */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #141531;
+}
+.knnrxv .header-image {
+    position: relative;
+    float: right;
+    clear: both;
+    z-index: 1;
+    max-width: 570px;
+    width: 50%;
+}
+.bcxYtT {
+    font-family: "DM Sans", sans-serif;
+    color: rgb(20, 21, 49);
+}
+.dWzdfH {
+    width: 770px;
+    margin: auto;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.dWzdfH p {
+    margin: 20px 0px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.knnrxv {
+    width: 100%;
+    background-color: rgb(249, 224, 172);
+    position: relative;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.dryRrI {
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.dAHnJY > div {
+    max-width: 100%; /* Adjusted for better responsiveness */
+    padding-right: 20px; /* Adjusted for better responsiveness */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #141531;
+}
+
+.hZiWUw {
+    overflow: hidden;
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(245, 244, 249);
+}
+div {
+    display: block;
+}
+.bcxYtT {
+    font-family: "DM Sans", sans-serif;
+    color: rgb(20, 21, 49);
+}
+.fUaEma > img {
+    width: 400px;
+    margin: 0px 50px 0px 0px;
+}
+.iHiTpp > img {
+    width: 400px;
+    margin: 0px 50px 0px 0px;
+}
+
+.dAHnJY > div {
+    max-width: 500px;
+    padding-right: 100px;
+}
+.dryRrI {
+    font-size: 40px;
+    line-height: 56px;
+}
+.dAHnJY {
+    display: flex;
+    flex: 1 1 0%;
+    clear: both;
+    padding-top: 150px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.fUaEma div {
+    align-self: center;
+    padding: 0px 0px 100px;
+    line-height: 28px;
+}
+.bcxYtT {
+    font-family: "DM Sans", sans-serif;
+    color: rgb(20, 21, 49);
+}
+
+/* @media (max-width: 1000px) */
+
+.fUaEma {
+    width: 100%;
+    flex-direction:column;
+}
+
+.fUaEma {
+    /* width: 800px; */
+    clear: both;
+    margin: auto;
+    display: flex;
+}
+.sc-pNWxx{
+    
+    margin-top: 10px;
+    line-height: 70px;
+}
+.sc-fujyUd img{
+    animation: updown 2s infinite
+    
+}
+@keyframes updown{
+  0%,100%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+} 
+.xyz{
+    font-size: 30px;
+}

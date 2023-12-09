@@ -1,0 +1,39 @@
+/* navbar.component.css */
+mat-toolbar {
+    position: sticky;
+    top: 0;
+    /* background-color: #006e90;  */
+    background: rgb(216, 176, 128);
+    background: linear-gradient(0deg, rgb(219, 166, 101) -3%, rgba(249,224,172,1) 40%);
+  }
+  .mat-toolbar.mat-primary {
+    background: #F9E0AC;
+    color: #fff;
+}
+  .club-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white; /* Set the text color of the title */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for emphasis */
+    letter-spacing: 2px; /* Increase letter spacing for a stylish look */
+    margin-right: 10px; /* Add some margin to the right for separation from buttons */
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  .button-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-row button {
+    margin: 0 4px; /* Add some spacing between buttons */
+  }
+  
+  .mat-raised-button {
+    background-color: #ff4081; /* Set the background color of the buttons */
+    color: white; /* Set the text color of the buttons */
+  }
+  

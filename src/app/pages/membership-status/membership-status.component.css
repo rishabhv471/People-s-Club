@@ -1,0 +1,31 @@
+/* your-component.component.css or styles.css */
+
+.mat-table-custom {
+    width: 100%;
+    margin: 10px 0;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+  }
+  
+  .mat-cell,
+  .mat-cell-header {
+    padding: 10px;
+  }
+  
+  .mat-cell-header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .mat-row {
+    background-color: #ffffff;
+  }
+  
+  .mat-row:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  .mat-icon-button {
+    margin-right: 5px; 
+  }
+  

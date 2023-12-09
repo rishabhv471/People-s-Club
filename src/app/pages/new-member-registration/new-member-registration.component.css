@@ -1,0 +1,91 @@
+/* registration-form.component.css */
+
+mat-form-field {
+    width: 25%;
+    margin-bottom: 25px;
+  }
+  
+  button {
+    margin-top: 15px;
+  }
+  
+
+  /* your-component.component.css or styles.css */
+
+/* Styling for the form container */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form fields and buttons */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Styling for labels */
+mat-label {
+  font-size: 14px;
+}
+
+/* Styling for input fields */
+input.mat-input-element, mat-select {
+  font-size: 14px;
+}
+
+/* Styling for error messages */
+mat-error {
+  font-size: 12px;
+  color: #d9534f; /* Bootstrap's danger color */
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+  width: 100%;
+}
+
+/* Styling for the form when in disabled state */
+form:disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Optional: Add styles for datepicker */
+.mat-datepicker-toggle {
+  color: #2196F3; /* Material blue color */
+}
+
+.mat-datepicker-content {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Style the mat-select dropdown */
+.mat-select-panel {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.xyzq{
+  
+  background-color: #f9e0ac;
+  border-radius: 4px;
+  padding: 0 15px;
+  
+  
+}
+.rishabh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.xyzq h1{
+font-weight: 700;
+}
